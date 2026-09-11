@@ -1,0 +1,233 @@
+{
+  "project_name": "Dipuuui's Dreamy 22nd Birthday Experience",
+  "app_type": "3d_experience / landing_page",
+  "persona_and_vibe": {
+    "brand_identity": "E1 Anti-AI Editorial: Dreamy Pastel & Elegant meets Retro Playful",
+    "emotional_arc": "Intimate, whimsical, nostalgic, deeply affectionate, and kinetic",
+    "theme_mode": "Dual theme support (Light Default: Warm Cream Vanilla & Soft Lavender-Rose; Dark: Obsidian Velvet & Pastel Neon)",
+    "target_person": "Dipuuui (Date of Birth: 29 September 2004)"
+  },
+  "typography": {
+    "heading_font": "'Playfair Display', 'Cormorant Garamond', serif",
+    "subheading_font": "'Outfit', 'Syne', sans-serif",
+    "mono_eyebrow_font": "'JetBrains Mono', 'Space Mono', monospace",
+    "body_font": "'Plus Jakarta Sans', 'Inter', sans-serif",
+    "hierarchy_rules": {
+      "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-serif tracking-tight leading-tight",
+      "section_h2": "text-2xl sm:text-3xl lg:text-4xl font-serif tracking-tight",
+      "subsection_h3": "text-xl sm:text-2xl font-sans font-semibold",
+      "eyebrow_label": "text-xs sm:text-sm font-mono uppercase tracking-[0.25em]",
+      "body": "text-base sm:text-lg leading-relaxed font-sans"
+    }
+  },
+  "colors": {
+    "light_mode": {
+      "background": "#FFFDF9",
+      "surface_card": "#FAF5EF",
+      "surface_card_border": "#F0E6D8",
+      "text_primary": "#1E1B18",
+      "text_secondary": "#6E675F",
+      "accent_rose": "#F472B6",
+      "accent_lavender": "#C084FC",
+      "accent_gold": "#FACC15",
+      "accent_mint": "#34D399",
+      "accent_peach": "#FB923C",
+      "glass_bg": "rgba(255, 253, 249, 0.75)",
+      "glass_border": "rgba(244, 114, 182, 0.2)"
+    },
+    "dark_mode": {
+      "background": "#0F0D15",
+      "surface_card": "#1A1625",
+      "surface_card_border": "#2E283E",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "accent_rose": "#EC4899",
+      "accent_lavender": "#D8B4FE",
+      "accent_gold": "#FDE047",
+      "accent_mint": "#6EE7B7",
+      "accent_peach": "#FDBA74",
+      "glass_bg": "rgba(15, 13, 21, 0.8)",
+      "glass_border": "rgba(216, 180, 254, 0.2)"
+    }
+  },
+  "image_urls": {
+    "hero_and_portrait": [
+      {
+        "url": "https://images.unsplash.com/photo-1624837699114-64f3de0dd437?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHw0fHxkcmVhbXklMjBwYXN0ZWwlMjBmbG93ZXJzJTIwYWVzdGhldGljJTIwZ2lybCUyMHBvcnRyYWl0fGVufDB8fHx8MTc4OTE2MDUxN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Dreamy pastel floral head dress portrait of Dipuuui vibe",
+        "category": "hero_portrait"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1651411029379-01f93fd4699c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHszfHxkcmVhbXklMjBwYXN0ZWwlMjBmbG93ZXJzJTIwYWVzdGhldGljJTIwZ2lybCUyMHBvcnRyYWl0fGVufDB8fHx8MTc4OTE2MDUxN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Soft ethereal white blossom close-up",
+        "category": "botanical_texture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1621525260134-2da456e33a8d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHwxfHxkcmVhbXklMjBwYXN0ZWwlMjBmbG93ZXJzJTIwYWVzdGhldGljJTIwZ2lybCUyMHBvcnRyYWl0fGVufDB8fHx8MTc4OTE2MDUxN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Whimsical girl with floral cheek details",
+        "category": "gallery_featured"
+      }
+    ],
+    "memory_gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1533158307587-828f0a76ef46?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHw0fHxyZXRybyUyMHBvbGFyb2lkJTIwYWVzdGhldGljJTIwbWVtb3JpZXMlMjBsaWZlc3R5bGV8ZW58MHx8fHwxNzg5MTYwNTI0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Vintage stacked memory photos and postcards",
+        "category": "polaroid_memory_1"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1617643049077-7e2e755c8b8c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxyZXRybyUyMHBvbGFyb2lkJTIwYWVzdGhldGljJTIwbWVtb3JpZXMlMjBsaWZlc3R5bGV8ZW58MHx8fHwxNzg5MTYwNTI0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Golden hour lake view polaroid photo frame",
+        "category": "polaroid_memory_2"
+      },
+      {
+        "url": "https://images.unsplash.com/flagged/photo-1563692040599-7e7d379d37b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHszfHxyZXRybyUyMHBvbGFyb2lkJTIwYWVzdGhldGljJTIwbWVtb3JpZXMlMjBsaWZlc3R5bGV8ZW58MHx8fHwxNzg5MTYwNTI0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Girl holding celebration balloons in sunshine",
+        "category": "polaroid_memory_3"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1502154882433-a614dba12819?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwyfHxyZXRybyUyMHBvbGFyb2lkJTIwYWVzdGhldGljJTIwbWVtb3JpZXMlMjBsaWZlc3R5bGV8ZW58MHx8fHwxNzg5MTYwNTI0fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Trio of retro beach vacation polaroid shots",
+        "category": "polaroid_memory_4"
+      }
+    ],
+    "celebration_and_cake": [
+      {
+        "url": "https://images.unsplash.com/photo-1545696563-af8f6ec2295a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNlbGVicmF0aW9uJTIwY2FrZSUyMGFlc3RoZXRpYyUyMGxpZ2h0JTIwcGFzdGVsfGVufDB8fHx8MTc4OTE2MDUyNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Lighting candles on a berries birthday cake",
+        "category": "birthday_cake_lighting"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1624240383807-464f369e4b1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwzfHxiaXJ0aGRheSUyMGNlbGVicmF0aW9uJTIwY2FrZSUyMGFlc3RoZXRpYyUyMGxpZ2h0JTIwcGFzdGVsfGVufDB8fHx8MTc4OTE2MDUyNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Pastel pink aesthetic birthday cake",
+        "category": "birthday_cake_pastel"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1694043325785-d841a964257f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwyfHxiaXJ0aGRheSUyMGNlbGVicmF0aW9uJTIwY2FrZSUyMGFlc3RoZXRpYyUyMGxpZ2h0JTIwcGFzdGVsfGVufDB8fHx8MTc4OTE2MDUyNHww&ixlib=rb-4.1.0&q=85",
+        "description": "Three tiered birthday cake with tall pastel candles",
+        "category": "birthday_cake_tiered"
+      }
+    ]
+  },
+  "key_features_and_layout_sections": [
+    {
+      "section_id": "navbar",
+      "title": "Editorial Glass Navigation",
+      "components": [
+        "Brand Logo Badge ('DIPUUUI • 22')",
+        "Live Birthday Countdown Pill Badge",
+        "Ambient Soundscape Audio Toggle with Visualizer Equalizer",
+        "Theme Toggle (Light Cream vs Dark Obsidian)",
+        "Section Jump Links (Bloom, Chapters, Gallery, Letter, Celebration)"
+      ]
+    },
+    {
+      "section_id": "hero",
+      "title": "Kinetic Hero & 3D Blooming Flower Experience",
+      "components": [
+        "Masked Line-by-Line Staggered Text Reveal ('Happy 22nd Birthday, Dipuuui')",
+        "Live Interactive Birthday Countdown Timer (Days, Hours, Minutes, Seconds until Sept 29)",
+        "Interactive 3D Flower Blooming Canvas (Three.js / React Three Fiber / Procedural Canvas with Growth Control Slider, Bloom Trigger, Petal Burst)",
+        "Floating Sparkles & Pastel Petal Particle Field",
+        "Primary CTA: 'Explore Her Journey' & Secondary CTA: 'Blow Out Candles'"
+      ]
+    },
+    {
+      "section_id": "chapters",
+      "title": "Numbered Manifesto Chapters / Memory Timeline",
+      "components": [
+        "Chapter 01: The Spark (2004) - 'Born under the September stars'",
+        "Chapter 02: Laughter & Sunshine - 'The sister who turns chaos into magic'",
+        "Chapter 03: The Unstoppable Dreamer - 'Chasing big goals with quiet strength'",
+        "Chapter 04: Chapter 22 & Beyond - 'The best is yet to bloom'",
+        "Horizontal Scroll / Accordion interaction with parallax image reveals"
+      ]
+    },
+    {
+      "section_id": "botanical_3d_garden",
+      "title": "Interactive 3D Blooming Garden Playground",
+      "components": [
+        "Interactive Flower Canvas where clicking/hovering grows custom colorful 3D blossoms",
+        "Petal Color Selector (Pastel Pink, Lavender, Sunflower Gold, Mint, Coral)",
+        "Wish Release Mechanism: Enter a short blessing that floats up as a glowing flower seed"
+      ]
+    },
+    {
+      "section_id": "photo_gallery",
+      "title": "Retro Polaroid & Editorial Photo Wall",
+      "components": [
+        "Filterable Categories ('All', 'Childhood', 'Laughter', 'Travel & Adventures')",
+        "Polaroid Card Frames with Washi Tape Effect and handwritten captions",
+        "Interactive Lightbox Modal with zoom, next/prev navigation, and detail notes"
+      ]
+    },
+    {
+      "section_id": "letter_section",
+      "title": "Personal Message Letter & Wax Seal Unseal",
+      "components": [
+        "Interactive Wax Seal Envelope ('Click to Unseal')",
+        "Vintage Textured Paper Letter Card",
+        "Pre-written Heartfelt Brother/Sister Wish Letter",
+        "Live Editable Mode: 'Write your own note' text editor with local storage persistence and copy/export wish link feature"
+      ]
+    },
+    {
+      "section_id": "editorial_marquee",
+      "title": "Slow Editorial Ribbon Marquee",
+      "components": [
+        "Continuous smooth drift marquee powered by Lenis / Framer Motion",
+        "Repeating text: 'HAPPY 22ND BIRTHDAY DIPUUUI • SEPTEMBER 29 2004 • MORE LIFE MORE BLOOM • '"
+      ]
+    },
+    {
+      "section_id": "candle_celebration",
+      "title": "Virtual Cake Candle Blowing & Celebration Room",
+      "components": [
+        "Interactive Birthday Cake with 22 glowing candles",
+        "'Light Candles' and 'Blow Out Candles' buttons + simulated mic wind blow trigger",
+        "Confetti Fireworks Burst (using canvas-confetti)",
+        "Interactive Birthday Song Sound Toggle",
+        "Interactive Wishes Wall where visitors can drop birthday messages with instant display"
+      ]
+    },
+    {
+      "section_id": "footer",
+      "title": "Grand Editorial Footer",
+      "components": [
+        "Massive Typography 'DIPUUUI 2004 - 2026'",
+        "Heartfelt Closing Quote",
+        "Quick Return to Top Trigger"
+      ]
+    }
+  ],
+  "motion_and_libraries": {
+    "smooth_scrolling": "lenis (smooth momentum scroll setup)",
+    "section_animations": "framer-motion (staggered children, viewport enter triggers, layout transitions)",
+    "confetti": "canvas-confetti",
+    "3d_rendering": "@react-three/fiber and @react-three/drei OR procedural HTML5 WebGL / Three.js canvas for 3D blooming flowers",
+    "icons": "lucide-react"
+  },
+  "testing_attributes": {
+    "rule": "Every button, link, interactive card, input, tab, modal, audio toggle, theme toggle, and countdown element MUST have a unique kebab-case data-testid attribute.",
+    "examples": [
+      "data-testid=\"nav-theme-toggle\"",
+      "data-testid=\"nav-audio-toggle\"",
+      "data-testid=\"hero-bloom-button\"",
+      "data-testid=\"countdown-days-value\"",
+      "data-testid=\"flower-color-picker-rose\"",
+      "data-testid=\"envelope-unseal-button\"",
+      "data-testid=\"edit-letter-toggle-button\"",
+      "data-testid=\"blow-candles-button\"",
+      "data-testid=\"wish-input-field\"",
+      "data-testid=\"wish-submit-button\""
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a single-page React frontend application in /app/frontend using JavaScript (.js / .jsx files).",
+    "Ensure Lenis smooth scrolling is initialized on page load for silk-like momentum scrolling.",
+    "Implement the 3D flower blooming canvas in the hero and botanical garden sections with interactive triggers (click to bloom, hover rotation, petal color customization).",
+    "Include sound audio effects or synthesizer ambient audio generator with audio visualizer toggle.",
+    "Ensure both Light Cream and Dark Obsidian themes are supported and switch smoothly via top nav toggle.",
+    "Store user written messages and wish wall notes in localStorage so edits persist seamlessly.",
+    "Double check that all interactive elements carry unique data-testid attributes."
+  ]
+}
